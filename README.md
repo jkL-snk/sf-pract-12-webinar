@@ -17,8 +17,8 @@ Jenkins vm should be able to connect via ssh to product and staging environment 
 ### Task 12.5
 After all 3 vms are deployed create 5 jobs in Jenkins:
 
-Run Wordpress containder on staging VM.
-Run Wordpress containder on production VM.
+Run Wordpress container on staging VM.
+Run Wordpress container on production VM.
 Job with scheduled task that each 5 minutes pings prod and staging vms.
 Job that gets uptime info from prod and staging vms.
 Job that reboots prod or staging vms or both (depends on arguments).
